@@ -1,0 +1,14 @@
+[build]
+builder = "Nixpacks"
+
+[build.nixpacks]
+packages = [
+  "cmake",
+  "gcc",
+  "g++",
+  "make",
+  "boost",
+  "openblas",
+  "lapack",
+  "python3-dev"
+]
